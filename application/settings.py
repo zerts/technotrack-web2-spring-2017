@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'core.apps.CoreConfig',
+    'feed',
+    'chat',
 ]
 
 MIDDLEWARE = [
@@ -131,4 +133,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/home/zerts/MIPT/Technotrack/web2/media/'
+
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.10/howto/static-files/
+
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/zerts/MIPT/Technotrack/web2/collected_static/'
+STATICFILES_DIRS = ('/home/zerts/MIPT/Technotrack/web2/src/static/', )
+
+ADMIN_MEDIA_PREFIX = '/static/admin/'
+
+AUTH_USER_MODEL = 'core.User'

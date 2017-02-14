@@ -1,0 +1,130 @@
+.b-post{
+    width: auto;
+    display: block;
+    padding: 0 20px;
+    margin-top: 20px;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+#b-post_header {
+    display: block;
+    margin-left: -20px;
+}
+
+#b-post_creator {
+    display: inline-block;
+    padding: 0 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+#b-post_time {
+    display: inline-block;
+    text-align: right;
+}
+
+#b-post_creator img {
+    float: left;
+    display: inline-block;
+    margin: 0 10px 0 -25px;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.b-post_text {
+    margin: 10px 10px 10px 10px;
+}
+
+#b-post_body {
+    display: block;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#b-post_type {
+    padding-left: 0;
+    float:left;
+    margin-left: -20px;
+    margin-right: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+#b-post_type img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: auto;
+
+
+}
+
+#b-post_content {
+    display: inline-block;
+    margin-right: -30px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: calc(100% - 30px);
+    height: auto;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+#b-post_time {
+    margin-top: 20px;
+    display: block;
+    line-height: 20px;
+}
+
+#b-post_footer {
+    margin: 20px;
+    margin-right: 0;
+}
+
+.b-post-edit-back {
+    position: fixed;
+    display: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.b-post-background {
+    position: fixed;
+    background-color: #818a91;
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.b-post-edit-form {
+    top: 30%;
+    bottom: 30%;
+    right: 30%;
+    left: 30%;
+    position: fixed;
+    background-color: #f9f9f9;
+    opacity: 1;
+}

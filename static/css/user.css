@@ -1,0 +1,23 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.user_side_card {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 60px; /* Положение от верхнего края */
+    background-color: #ccc;
+    border-radius: 10px;
+    border: 1px solid #919191;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    /* Ширина колонки */
+}
+
+.b-posts_all {
+    margin-top: 60px;
+    z-index: 0;
+}
+
+
